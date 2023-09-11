@@ -1,0 +1,52 @@
+{
+  "name": "",
+  "description": "A Telegram Bot to generate Telethon and Pyrogram String Session.",
+  "logo": "https://telegra.ph/file/bcb4dc6ecd049c1a11835.jpg",
+  "keywords": [
+    "telegram",
+    "bot",
+    "python",
+    "pyrogram"
+  ],
+    "buildpacks": [{
+    "url": "heroku/python"
+  }],
+  "repository": "https://github.com/Tepthon/TepthonSessionbotv2",
+  "env": {
+    "ENVIRONMENT": {
+      "description": "Don't change ANYTHING.",
+      "required": true,
+      "value": "ANYTHING"
+    },
+    "API_ID": {
+      "description": "خليه مثل ماهوه لتلعب بيه ",
+      "required": true,
+      "value": "16739069"
+    },
+    "API_HASH": {
+      "description": " خليه مثل ماهو لتلعب بيه ",
+      "required": true,
+      "value": "6ae3ff1789833e717c0728793def54bd"
+    },
+    "ايدي حسابك": {
+      "description": "Telegram id of the person who will known as owner of the bot.",
+      "required": true,
+      "value": ""
+    },
+    "يوزر بوتك": {
+      "description": "يوزر بوتك بدون @",
+      "required": true,
+      "value": ""
+    },
+    "كروب او قناتك ": {
+      "description": "بدون@",
+      "required": true,
+      "value": "Tepthon"
+    },
+    "توكن بوت": {
+      "description": " توكن البوت الي حصلته من بوت فاذر",
+      "required": true,
+      "value": ""
+    }
+  }
+}
